@@ -15,3 +15,6 @@ jobs:
 
       - name: Print a message
         run: echo "Hello from CI/CD 🚀"
+
+      - name: Run a node script
+        run: node hello.js
